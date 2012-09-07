@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF9BE72F15FA06BB001159A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9BE72E15FA06BB001159A1 /* UIKit.framework */; };
+		FF9BE73115FA06BB001159A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9BE73015FA06BB001159A1 /* Foundation.framework */; };
+		FF9BE73315FA06BB001159A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9BE73215FA06BB001159A1 /* CoreGraphics.framework */; };
+		FF9BE73915FA06BB001159A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF9BE73715FA06BB001159A1 /* InfoPlist.strings */; };
+		FF9BE73B15FA06BB001159A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9BE73A15FA06BB001159A1 /* main.m */; };
+		FF9BE73F15FA06BB001159A1 /* BDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9BE73E15FA06BB001159A1 /* BDAppDelegate.m */; };
+		FF9BE74215FA06BB001159A1 /* BDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9BE74115FA06BB001159A1 /* BDViewController.m */; };
+		FF9BE74515FA06BB001159A1 /* BDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF9BE74315FA06BB001159A1 /* BDViewController.xib */; };
+		FF9BE75315FA0777001159A1 /* BDDimGlassView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9BE75215FA0777001159A1 /* BDDimGlassView.m */; };
+		FF9BE75515FA094A001159A1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF9BE75415FA094A001159A1 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF9BE72A15FA06BB001159A1 /* BDDimGlassView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDDimGlassView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9BE72E15FA06BB001159A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF9BE73015FA06BB001159A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF9BE73215FA06BB001159A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF9BE73615FA06BB001159A1 /* BDDimGlassView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BDDimGlassView-Info.plist"; sourceTree = "<group>"; };
+		FF9BE73815FA06BB001159A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF9BE73A15FA06BB001159A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF9BE73C15FA06BB001159A1 /* BDDimGlassView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BDDimGlassView-Prefix.pch"; sourceTree = "<group>"; };
+		FF9BE73D15FA06BB001159A1 /* BDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDAppDelegate.h; sourceTree = "<group>"; };
+		FF9BE73E15FA06BB001159A1 /* BDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDAppDelegate.m; sourceTree = "<group>"; };
+		FF9BE74015FA06BB001159A1 /* BDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDViewController.h; sourceTree = "<group>"; };
+		FF9BE74115FA06BB001159A1 /* BDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDViewController.m; sourceTree = "<group>"; };
+		FF9BE74415FA06BB001159A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BDViewController.xib; sourceTree = "<group>"; };
+		FF9BE75115FA0777001159A1 /* BDDimGlassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDDimGlassView.h; sourceTree = "<group>"; };
+		FF9BE75215FA0777001159A1 /* BDDimGlassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDDimGlassView.m; sourceTree = "<group>"; };
+		FF9BE75415FA094A001159A1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF9BE72715FA06BB001159A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9BE75515FA094A001159A1 /* QuartzCore.framework in Frameworks */,
+				FF9BE72F15FA06BB001159A1 /* UIKit.framework in Frameworks */,
+				FF9BE73115FA06BB001159A1 /* Foundation.framework in Frameworks */,
+				FF9BE73315FA06BB001159A1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF9BE71F15FA06BB001159A1 = {
+			isa = PBXGroup;
+			children = (
+				FF9BE75415FA094A001159A1 /* QuartzCore.framework */,
+				FF9BE74F15FA073A001159A1 /* Classes */,
+				FF9BE73415FA06BB001159A1 /* BDDimGlassView */,
+				FF9BE72D15FA06BB001159A1 /* Frameworks */,
+				FF9BE72B15FA06BB001159A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF9BE72B15FA06BB001159A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF9BE72A15FA06BB001159A1 /* BDDimGlassView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF9BE72D15FA06BB001159A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF9BE72E15FA06BB001159A1 /* UIKit.framework */,
+				FF9BE73015FA06BB001159A1 /* Foundation.framework */,
+				FF9BE73215FA06BB001159A1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF9BE73415FA06BB001159A1 /* BDDimGlassView */ = {
+			isa = PBXGroup;
+			children = (
+				FF9BE73D15FA06BB001159A1 /* BDAppDelegate.h */,
+				FF9BE73E15FA06BB001159A1 /* BDAppDelegate.m */,
+				FF9BE74015FA06BB001159A1 /* BDViewController.h */,
+				FF9BE74115FA06BB001159A1 /* BDViewController.m */,
+				FF9BE74315FA06BB001159A1 /* BDViewController.xib */,
+				FF9BE73515FA06BB001159A1 /* Supporting Files */,
+			);
+			path = BDDimGlassView;
+			sourceTree = "<group>";
+		};
+		FF9BE73515FA06BB001159A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF9BE73615FA06BB001159A1 /* BDDimGlassView-Info.plist */,
+				FF9BE73715FA06BB001159A1 /* InfoPlist.strings */,
+				FF9BE73A15FA06BB001159A1 /* main.m */,
+				FF9BE73C15FA06BB001159A1 /* BDDimGlassView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF9BE74F15FA073A001159A1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF9BE75115FA0777001159A1 /* BDDimGlassView.h */,
+				FF9BE75215FA0777001159A1 /* BDDimGlassView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF9BE72915FA06BB001159A1 /* BDDimGlassView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9BE74815FA06BB001159A1 /* Build configuration list for PBXNativeTarget "BDDimGlassView" */;
+			buildPhases = (
+				FF9BE72615FA06BB001159A1 /* Sources */,
+				FF9BE72715FA06BB001159A1 /* Frameworks */,
+				FF9BE72815FA06BB001159A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BDDimGlassView;
+			productName = BDDimGlassView;
+			productReference = FF9BE72A15FA06BB001159A1 /* BDDimGlassView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF9BE72115FA06BB001159A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BD;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Bluedot;
+			};
+			buildConfigurationList = FF9BE72415FA06BB001159A1 /* Build configuration list for PBXProject "BDDimGlassView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF9BE71F15FA06BB001159A1;
+			productRefGroup = FF9BE72B15FA06BB001159A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF9BE72915FA06BB001159A1 /* BDDimGlassView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF9BE72815FA06BB001159A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9BE73915FA06BB001159A1 /* InfoPlist.strings in Resources */,
+				FF9BE74515FA06BB001159A1 /* BDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF9BE72615FA06BB001159A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9BE73B15FA06BB001159A1 /* main.m in Sources */,
+				FF9BE73F15FA06BB001159A1 /* BDAppDelegate.m in Sources */,
+				FF9BE74215FA06BB001159A1 /* BDViewController.m in Sources */,
+				FF9BE75315FA0777001159A1 /* BDDimGlassView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF9BE73715FA06BB001159A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9BE73815FA06BB001159A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF9BE74315FA06BB001159A1 /* BDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9BE74415FA06BB001159A1 /* en */,
+			);
+			name = BDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF9BE74615FA06BB001159A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF9BE74715FA06BB001159A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF9BE74915FA06BB001159A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BDDimGlassView/BDDimGlassView-Prefix.pch";
+				INFOPLIST_FILE = "BDDimGlassView/BDDimGlassView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF9BE74A15FA06BB001159A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BDDimGlassView/BDDimGlassView-Prefix.pch";
+				INFOPLIST_FILE = "BDDimGlassView/BDDimGlassView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF9BE72415FA06BB001159A1 /* Build configuration list for PBXProject "BDDimGlassView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9BE74615FA06BB001159A1 /* Debug */,
+				FF9BE74715FA06BB001159A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9BE74815FA06BB001159A1 /* Build configuration list for PBXNativeTarget "BDDimGlassView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9BE74915FA06BB001159A1 /* Debug */,
+				FF9BE74A15FA06BB001159A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF9BE72115FA06BB001159A1 /* Project object */;
+}
